@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-family: sans-serif;
+}
+
+body{
+  background-color: #ffffff;
+}
+
+.header{
+  margin: auto -10px;
+  padding: 10px 20px;
+  box-shadow: 0 0 2px 0 rgb(114, 114, 114);
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+}
+
+.header h3{
+  font-size: 2rem;
+  margin-left: 10px;
+  color: grey;
+
+}
+
+form{
+  position: relative;
+  width: 600px;
+  margin: 32px auto 50px auto;
+  background: #fff;
+  padding: 7px;
+  border-radius: 7px;
+  box-shadow: 0 1px 7px rgb(128, 128, 128);
+}
+
+form input{
+  width: 100%;
+  border: none;
+  margin: 4px 10px;
+  margin-bottom: 20px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+
+form textarea{
+  width: 100%;
+  border: none;
+  padding: 4px 10px;
+  outline: none;
+  font-size: 1rem;
+  resize: none;
+}
+
+form button{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 18px;
+  bottom: -18px;
+  background: rgb(244, -248, -26);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgb(165, 165, 165);
+  outline: none;
+}
+
+.note{
+  background: #fff;
+  width: 240px;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgb(175, 175,175);
+  padding: 10px;
+  margin: 16px;
+  float: left;
+}
+
+.note h1{
+  font-size: 1 rem;
+  margin-bottom: 6px;
+
+}
+
+.note p{
+  font-size:  1 rem;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button{
+  position: relative;
+  float: right;
+  color: red;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.count{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.area{
+  font-size: large;
+  font-weight: 100;
+}
